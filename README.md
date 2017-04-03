@@ -53,6 +53,10 @@ npm install
 # 打开server目录，命令行启动server.js(服务器)
 node server.js
 
+# 修改IP地址（room.vue 324行修改为自己的IP地址）
+`
+this.httpServer = io.connect('http://192.168.31.238:3000');// 修改为自己的IP
+`
 # 项目运行（浏览器访问 http://localhost:8085）
 npm run dev
 
